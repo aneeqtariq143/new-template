@@ -7,8 +7,24 @@ and open the template in the editor.
     Created on : Aug 29, 2016, 12:45:12 PM
     Author     : Aneeq
 */
-
+@import url(bootstrap.min.css);
 .container-fluid.body-bg{
     background: url(../images/body-bg.png) repeat #404040;
     padding:  0;
+}
+
+.main-content {
+    background: #fff;
+}
+
+.custom-navbar{
+    border: 0;
+}
+
+.header-row{
+    padding: 15px;
+}
+
+.navbar-header h1 {
+    margin-bottom: 0;
 }
